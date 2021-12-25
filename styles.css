@@ -1,0 +1,201 @@
+html {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    width: 1100px;
+    background-color: limegreen;
+}
+
+body > * {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.top, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+}
+
+.header .logo {
+    flex: 0 0 auto;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+
+.header ul {
+    flex: 1 0 auto;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: E6E7EB;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    padding-right: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+button:hover {
+    background-color: #528eee;
+    cursor: pointer;
+}
+
+.image {
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.card-title {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card {
+    flex: 0;
+    text-align: center;
+}
+
+.card-image {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.call-to-action {
+    background-color: white;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    padding: 40px 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.cta-box button {
+    border: 2px solid white;
+}
+
+.cta-text {
+    flex: 1;
+}
+
+.cta-text p {
+    margin: 0px;
+}
+
+.cta-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 30px;
+}
